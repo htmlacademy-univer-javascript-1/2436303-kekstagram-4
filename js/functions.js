@@ -19,6 +19,4 @@ function getNumberFromString(string) {
   return number > 0 ? number : NaN ;
 }
 
-checkStringSize('dfsfs', 1);
-checkPolindrom('abccba');
-getNumberFromString('1 fds 554');
+export {checkStringSize, checkPolindrom, getNumberFromString};
