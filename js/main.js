@@ -1,4 +1,4 @@
-let names = ['Ivan', 'Igor', 'Dmitrij', 'Vlad', 'Gleb', 'Kolya', 'Anna', 'Marina', 'Galya'];
+const names = ['Ivan', 'Igor', 'Dmitrij', 'Vlad', 'Gleb', 'Kolya', 'Anna', 'Marina', 'Galya'];
 const text = 'Всё отлично! В целом всё неплохо. ' +
   'Но не всё. Когда вы делаете фотографию, хорошо бы убирать палец из кадра.' +
   'В конце концов это просто непрофессионально.' +
@@ -58,4 +58,5 @@ function createPhootoSet(number) {
   }
   return photoSet;
 }
+createPhootoSet(30);
 

@@ -1,5 +1,5 @@
 function checkStringSize(string, maxSize) {
-  let length = string.length;
+  const length = string.length;
   if (length > maxSize) {
     return false;
   }
@@ -15,7 +15,10 @@ function checkPolindrom(string) {
 }
 
 function getNumberFromString(string) {
-  let number = Number(string.replace(/[^0-9-]/g, ''));
+  const number = Number(string.replace(/[^0-9-]/g, ''));
   return number > 0 ? number : NaN ;
 }
 
+checkStringSize('dfsfs', 1);
+checkPolindrom('abccba');
+getNumberFromString('1 fds 554');
